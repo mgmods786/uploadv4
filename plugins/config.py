@@ -15,8 +15,7 @@ class Config(object):
     
     API_ID = int(os.environ.get("API_ID", "22216618"))
     
-    API_HASH = os.environ.get("API_HASH", "cb9b9fd32dde8a17b8e55b8131b08ae5
-")
+    API_HASH = os.environ.get("API_HASH", "cb9b9fd32dde8a17b8e55b8131b08ae5")
     
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     
